@@ -3,4 +3,6 @@ export interface Photo {
   url: string
   title: string
   location: string
+  tags: string[]
+  timestamp: string
 }
