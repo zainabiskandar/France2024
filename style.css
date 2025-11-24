@@ -5,104 +5,226 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  background-color: #e8e8e8;
+  font-family: 'Helvetica Neue', 'Inter', 'Avenir', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
   color: #1a1a1a;
   overflow-x: hidden;
+  font-weight: 300;
+  letter-spacing: 0.3px;
 }
 
-header {
+.timestamp {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #f5f5f5;
-  padding: 24px 48px;
-  z-index: 100;
-  border-bottom: 1px solid #d0d0d0;
+  top: 48px;
+  left: 48px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #1a1a1a;
+  line-height: 1.6;
+  z-index: 1000;
 }
 
-.header-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1400px;
-  margin: 0 auto;
+.timestamp .am {
+  font-size: 11px;
+  vertical-align: super;
 }
 
-.date {
+.center-title {
+  position: fixed;
+  top: 48px;
+  left: 50%;
+  transform: translateX(-50%);
   font-size: 14px;
   font-weight: 400;
+  letter-spacing: 1px;
+  color: #1a1a1a;
+  z-index: 1000;
+}
+
+.category-nav {
+  position: fixed;
+  top: 48px;
+  right: 48px;
+  text-align: right;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #999;
+  z-index: 1000;
+  max-width: 140px;
+}
+
+.category {
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin-bottom: 2px;
+}
+
+.category:hover {
   color: #1a1a1a;
 }
 
-.title {
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.5px;
+.category.active {
   color: #1a1a1a;
+  font-weight: 400;
+}
+
+.category sup {
+  font-size: 9px;
+  margin-left: 2px;
+  color: inherit;
 }
 
 main {
-  margin-top: 100px;
-  padding: 60px 48px;
   min-height: 100vh;
-}
-
-.gallery-section {
-  perspective: 2000px;
-  margin-bottom: 120px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  min-height: 600px;
+  justify-content: center;
+  padding: 120px 60px;
+  perspective: 3000px;
 }
 
-.card-stack {
+.gallery-view {
   position: relative;
-  width: 800px;
-  height: 500px;
-  transform-style: preserve-3d;
-  transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  width: 100%;
+  max-width: 1400px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.card {
+.image-stack {
   position: absolute;
-  width: 280px;
-  height: 400px;
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.image-card {
+  position: absolute;
+  width: 3px;
+  height: 180px;
   background: white;
-  border-radius: 4px;
-  overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
   cursor: pointer;
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
-  transform-style: preserve-3d;
+  overflow: hidden;
 }
 
-.card img {
+.image-card img {
   width: 100%;
-  height: 320px;
+  height: 100%;
   object-fit: cover;
-  display: block;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
-.card-info {
-  padding: 12px 16px;
-  font-size: 12px;
+.image-card:hover {
+  width: 240px;
+  height: 320px;
+  z-index: 100;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  transform: translateY(-20px) scale(1.05);
+}
+
+.image-card:hover img {
+  opacity: 1;
+}
+
+.image-card:hover .card-label {
+  opacity: 1;
+}
+
+.card-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.95);
+  font-size: 10px;
+  font-weight: 300;
   color: #666;
+  opacity: 0;
+  transition: opacity 0.3s ease;
   line-height: 1.4;
+  border-top: 1px solid #f0f0f0;
 }
 
-.card-caption {
-  font-size: 11px;
+.card-location {
+  font-size: 9px;
   color: #999;
+  margin-top: 2px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.featured-section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-image {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  background: white;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.12);
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  cursor: pointer;
+  overflow: hidden;
+  opacity: 1;
+}
+
+.featured-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.15);
+}
+
+.featured-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featured-caption {
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  font-size: 11px;
+  font-weight: 300;
+  color: #666;
+  line-height: 1.6;
+}
+
+.featured-location {
+  font-size: 10px;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   margin-top: 4px;
 }
 
-.card:hover {
-  transform: translateZ(80px) scale(1.08) !important;
-  z-index: 50 !important;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+.stack-left,
+.stack-right {
+  position: absolute;
+  width: 280px;
+  height: 180px;
+  transform-style: preserve-3d;
+}
+
+.stack-left {
+  left: 0;
+  transform: rotateY(12deg) rotateX(2deg);
+}
+
+.stack-right {
+  right: 0;
+  transform: rotateY(-12deg) rotateX(2deg);
 }
 
 .lightbox {
@@ -111,43 +233,45 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: rgba(250, 250, 250, 0.98);
   display: none;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
-  animation: fadeIn 0.3s ease;
+  z-index: 2000;
+  opacity: 0;
+  transition: opacity 0.4s ease;
 }
 
 .lightbox.active {
   display: flex;
+  opacity: 1;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.lightbox-content {
+  position: relative;
+  max-width: 85%;
+  max-height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .lightbox-close {
   position: absolute;
-  top: 32px;
-  right: 48px;
+  top: -60px;
+  right: 0;
   background: none;
   border: none;
-  color: white;
-  font-size: 48px;
+  color: #1a1a1a;
+  font-size: 32px;
   cursor: pointer;
-  width: 60px;
-  height: 60px;
+  width: 48px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: transform 0.2s ease;
-  z-index: 1001;
+  font-weight: 200;
 }
 
 .lightbox-close:hover {
@@ -155,58 +279,86 @@ main {
 }
 
 .lightbox-image {
-  max-width: 85%;
-  max-height: 85%;
+  max-width: 100%;
+  max-height: 70vh;
   object-fit: contain;
-  border-radius: 4px;
-  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.08);
+  background: white;
+}
+
+.lightbox-info {
+  margin-top: 32px;
+  text-align: center;
 }
 
 .lightbox-caption {
-  position: absolute;
-  bottom: 48px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: white;
-  font-size: 14px;
-  text-align: center;
-  max-width: 80%;
+  font-size: 13px;
+  font-weight: 300;
+  color: #1a1a1a;
   line-height: 1.6;
+  max-width: 600px;
 }
 
-@media (max-width: 768px) {
-  header {
-    padding: 16px 24px;
+@media (max-width: 1024px) {
+  .timestamp,
+  .center-title,
+  .category-nav {
+    font-size: 11px;
+  }
+
+  .timestamp,
+  .center-title {
+    top: 32px;
+  }
+
+  .timestamp {
+    left: 32px;
+  }
+
+  .category-nav {
+    top: 32px;
+    right: 32px;
   }
 
   main {
-    padding: 40px 24px;
-    margin-top: 80px;
+    padding: 100px 32px;
   }
 
-  .card-stack {
-    width: 100%;
-    max-width: 400px;
-    height: 400px;
+  .featured-image {
+    width: 90%;
+    max-width: 500px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .timestamp {
+    font-size: 10px;
   }
 
-  .card {
-    width: 220px;
-    height: 320px;
+  .center-title {
+    font-size: 12px;
   }
 
-  .card img {
-    height: 250px;
+  .category-nav {
+    display: none;
+  }
+
+  main {
+    padding: 100px 24px;
+  }
+
+  .featured-image {
+    width: 95%;
+    height: 300px;
+  }
+
+  .image-card:hover {
+    width: 200px;
+    height: 280px;
   }
 
   .lightbox-image {
-    max-width: 95%;
-    max-height: 80%;
-  }
-
-  .lightbox-close {
-    top: 16px;
-    right: 16px;
-    font-size: 36px;
+    max-height: 60vh;
   }
 }
