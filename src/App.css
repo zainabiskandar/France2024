@@ -1,0 +1,42 @@
+.app {
+  min-height: 100vh;
+  padding-bottom: 4rem;
+}
+
+.header {
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.header p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  opacity: 0.9;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .header h1 {
+    font-size: 2.5rem;
+  }
+
+  .header p {
+    font-size: 1rem;
+  }
+}
