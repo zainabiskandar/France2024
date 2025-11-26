@@ -4,7 +4,10 @@ import react from '@vitejs/plugin-react-swc';
 import path from 'path';
 
 export default defineConfig({
-  base: '/France2024/',
+  // Use a relative base so the build remains portable across different hosts
+  // (GitHub Pages project vs user pages). A relative base ensures assets
+  // are requested from the same folder the site is served from.
+  base: './',
   plugins: [react()],
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
