@@ -1,12 +1,21 @@
-# France 2024
+# France 2024 Photo Gallery
 
-A photo gallery showcasing my 12-day trip through France in 2024. This interactive archive features stunning photographs from various locations including Paris, Lyon, Marseille, the French Riviera, Provence, and more.
+An elegant, interactive photo gallery showcasing a 12-day journey through France. Features a unique 3D diagonal stack interface with smooth animations and filtering by day.
+
+## Features
+
+- 3D diagonal stack photo layout
+- Day-by-day filtering system
+- Live timestamp display
+- Keyboard navigation (arrow keys)
+- Click to expand images
+- Responsive design
 
 ## Running the Project
 
 Install dependencies:
 ```bash
-npm i
+npm install
 ```
 
 Start the development server:

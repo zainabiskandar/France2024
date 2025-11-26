@@ -549,7 +549,7 @@
 
 :root {
   --font-size: 16px;
-  --background: #fff;
+  --background: #fafbfc;
   --foreground: oklch(.145 0 0);
   --card: #fff;
   --card-foreground: oklch(.145 0 0);
@@ -627,6 +627,10 @@
 
 html {
   font-size: var(--font-size);
+}
+
+.bg-soft-white {
+  background: linear-gradient(135deg, #fafbfc 0%, #ffffff 50%, #f8f9fa 100%);
 }
 
 @property --tw-translate-x {

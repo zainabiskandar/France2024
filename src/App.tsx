@@ -149,7 +149,7 @@ export default function App() {
   };
 
   return (
-    <div className="relative min-h-screen bg-white overflow-hidden">
+    <div className="relative min-h-screen bg-soft-white overflow-hidden">
       {/* Timestamp - Top Left */}
       <div className="absolute top-8 left-8 z-10">
         <div className="opacity-90">
