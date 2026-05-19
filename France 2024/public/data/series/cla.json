@@ -1,0 +1,57 @@
+{
+  "id": "cla",
+  "title": "Centre de Linguistique Appliquée",
+  "slug": "cla",
+  "description": "Two weeks of language immersion at CLA — classrooms, classmates, and conjugation drills.",
+  "featured": false,
+  "images": [
+    {
+      "id": "cla-001",
+      "src": "https://picsum.photos/seed/france-cla-school/1200/800",
+      "alt": "Placeholder image — CLA school exterior",
+      "aspectRatio": 1.5,
+      "caption": { "subject": "CLA campus", "profession": "Language school" },
+      "metadata": { "title": "First day", "year": "2024", "description": "Placeholder image. Replace with your photo.", "location": "France", "series": "cla" }
+    },
+    {
+      "id": "cla-002",
+      "src": "https://picsum.photos/seed/france-cla-classroom/1200/800",
+      "alt": "Placeholder image — classroom",
+      "aspectRatio": 1.5,
+      "caption": { "subject": "Classroom", "profession": "CLA" },
+      "metadata": { "title": "In class", "year": "2024", "description": "Placeholder image. Replace with your photo.", "location": "France", "series": "cla" }
+    },
+    {
+      "id": "cla-003",
+      "src": "https://picsum.photos/seed/france-cla-notebook/1200/800",
+      "alt": "Placeholder image — open notebook",
+      "aspectRatio": 1.5,
+      "caption": { "subject": "Notes", "profession": "CLA" },
+      "metadata": { "title": "Conjugations", "year": "2024", "description": "Placeholder image. Replace with your photo.", "location": "France", "series": "cla" }
+    },
+    {
+      "id": "cla-004",
+      "src": "https://picsum.photos/seed/france-cla-classmates/1200/800",
+      "alt": "Placeholder image — classmates",
+      "aspectRatio": 1.5,
+      "caption": { "subject": "Classmates", "profession": "CLA" },
+      "metadata": { "title": "New friends", "year": "2024", "description": "Placeholder image. Replace with your photo.", "location": "France", "series": "cla" }
+    },
+    {
+      "id": "cla-005",
+      "src": "https://picsum.photos/seed/france-cla-courtyard/1200/800",
+      "alt": "Placeholder image — school courtyard",
+      "aspectRatio": 1.5,
+      "caption": { "subject": "Courtyard", "profession": "CLA" },
+      "metadata": { "title": "Between classes", "year": "2024", "description": "Placeholder image. Replace with your photo.", "location": "France", "series": "cla" }
+    },
+    {
+      "id": "cla-006",
+      "src": "https://picsum.photos/seed/france-cla-library/1200/800",
+      "alt": "Placeholder image — library",
+      "aspectRatio": 1.5,
+      "caption": { "subject": "Library", "profession": "CLA" },
+      "metadata": { "title": "Study hour", "year": "2024", "description": "Placeholder image. Replace with your photo.", "location": "France", "series": "cla" }
+    }
+  ]
+}

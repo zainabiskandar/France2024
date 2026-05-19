@@ -1,0 +1,24 @@
+{
+  "name": "France 2024",
+  "tagline": "What is essential is invisible to the eye. — Antoine de Saint-Exupéry",
+  "biography": {
+    "philosophy": "TBD — coming soon.",
+    "background": "TBD — coming soon.",
+    "experience": "TBD — coming soon.",
+    "currentFocus": "TBD — coming soon."
+  },
+  "contact": {
+    "email": "tbd@example.com",
+    "phone": "TBD"
+  },
+  "clients": [
+    {
+      "category": "Highlights",
+      "clients": ["TBD"]
+    }
+  ],
+  "portraitImage": {
+    "src": "https://picsum.photos/seed/france-portrait/940/650",
+    "alt": "Placeholder portrait — France 2024 trip"
+  }
+}
