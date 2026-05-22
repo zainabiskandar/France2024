@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>France 2024 — Language Immersion Archive by Zainab Iskandar</title>
+    <meta name="description" content="A photographic archive of a Language Immersion Programme in France (2024) — Paris, Besançon, Franche-Comté, and the Centre de Linguistique Appliquée." />
+    <meta name="author" content="Zainab Iskandar" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Hind:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Open Graph (default — per-route values override at runtime) -->
+    <meta property="og:title" content="France 2024 — Language Immersion Archive" />
+    <meta property="og:description" content="Photographs from Paris, Besançon, and the Centre de Linguistique Appliquée, 2024." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="France 2024" />
+    <meta property="og:image" content="https://picsum.photos/seed/france-paris-eiffel/1200/630" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="France 2024 — Language Immersion Archive" />
+    <meta name="twitter:description" content="Photographs from Paris, Besançon, and the Centre de Linguistique Appliquée, 2024." />
+    <meta name="twitter:image" content="https://picsum.photos/seed/france-paris-eiffel/1200/630" />
+
+    <!-- GitHub Pages SPA fallback: restores the path rewritten by 404.html. -->
+    <script>
+      (function () {
+        if (window.location.search.indexOf('?/') === 1) {
+          var s = window.location.search.slice(2).split('&');
+          var path = '/' + s.shift().replace(/~and~/g, '&');
+          var query = s.length ? '?' + s.join('&').replace(/~and~/g, '&') : '';
+          window.history.replaceState(null, null,
+            window.location.pathname.replace(/\/$/, '') + path + query + window.location.hash
+          );
+        }
+      })();
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

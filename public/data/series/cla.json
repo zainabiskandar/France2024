@@ -1,0 +1,213 @@
+{
+  "id": "cla",
+  "title": "Étudiante CLA",
+  "slug": "cla",
+  "description": "Two weeks of language immersion at CLA — classrooms, classmates, and conjugation drills.",
+  "featured": false,
+  "images": [
+    {
+      "id": "cla-001",
+      "src": "https://picsum.photos/seed/france-cla-school/1200/800",
+      "alt": "Placeholder image — CLA school exterior",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "CLA campus",
+        "profession": "Language school"
+      },
+      "metadata": {
+        "title": "First day",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "cla"
+      }
+    },
+    {
+      "id": "cla-002",
+      "src": "https://picsum.photos/seed/france-cla-classroom/1200/800",
+      "alt": "Placeholder image — classroom",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Classroom",
+        "profession": "CLA"
+      },
+      "metadata": {
+        "title": "In class",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "cla"
+      }
+    },
+    {
+      "id": "cla-003",
+      "src": "https://picsum.photos/seed/france-cla-notebook/1200/800",
+      "alt": "Placeholder image — open notebook",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Notes",
+        "profession": "CLA"
+      },
+      "metadata": {
+        "title": "Conjugations",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "cla"
+      }
+    },
+    {
+      "id": "cla-004",
+      "src": "https://picsum.photos/seed/france-cla-classmates/1200/800",
+      "alt": "Placeholder image — classmates",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Classmates",
+        "profession": "CLA"
+      },
+      "metadata": {
+        "title": "New friends",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "cla"
+      }
+    },
+    {
+      "id": "cla-005",
+      "src": "https://picsum.photos/seed/france-cla-courtyard/1200/800",
+      "alt": "Placeholder image — school courtyard",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Courtyard",
+        "profession": "CLA"
+      },
+      "metadata": {
+        "title": "Between classes",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "cla"
+      }
+    },
+    {
+      "id": "cla-006",
+      "src": "https://picsum.photos/seed/france-cla-library/1200/800",
+      "alt": "Placeholder image — library",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Library",
+        "profession": "CLA"
+      },
+      "metadata": {
+        "title": "Study hour",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "cla"
+      }
+    },
+    {
+      "id": "cla-007",
+      "src": "https://picsum.photos/seed/france-cla-desk/1200/800",
+      "alt": "Placeholder image — at my desk",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Verbs",
+        "profession": "CLA"
+      },
+      "metadata": {
+        "title": "At my desk",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "cla"
+      }
+    },
+    {
+      "id": "cla-008",
+      "src": "https://picsum.photos/seed/france-cla-board/1200/800",
+      "alt": "Placeholder image — whiteboard",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Lesson",
+        "profession": "CLA"
+      },
+      "metadata": {
+        "title": "Whiteboard",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "cla"
+      }
+    },
+    {
+      "id": "cla-009",
+      "src": "https://picsum.photos/seed/france-cla-coffee/1200/800",
+      "alt": "Placeholder image — coffee break",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Pause café",
+        "profession": "CLA"
+      },
+      "metadata": {
+        "title": "Coffee break",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "cla"
+      }
+    },
+    {
+      "id": "cla-010",
+      "src": "https://picsum.photos/seed/france-cla-hallway/1200/800",
+      "alt": "Placeholder image — hallway",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Between rooms",
+        "profession": "CLA"
+      },
+      "metadata": {
+        "title": "Hallway",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "cla"
+      }
+    },
+    {
+      "id": "cla-011",
+      "src": "https://picsum.photos/seed/france-cla-window/1200/800",
+      "alt": "Placeholder image — through the window",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Outside",
+        "profession": "CLA"
+      },
+      "metadata": {
+        "title": "Through the window",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "cla"
+      }
+    },
+    {
+      "id": "cla-012",
+      "src": "https://picsum.photos/seed/france-cla-evening/1200/800",
+      "alt": "Placeholder image — end of day",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Walking home",
+        "profession": "CLA"
+      },
+      "metadata": {
+        "title": "End of day",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "cla"
+      }
+    }
+  ]
+}

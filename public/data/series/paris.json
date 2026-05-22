@@ -1,0 +1,57 @@
+{
+  "id": "paris",
+  "title": "Bonjour Paris",
+  "slug": "paris",
+  "description": "First steps in the City of Light: the Eiffel Tower at dusk, café terraces, and long walks along the Seine.",
+  "featured": true,
+  "images": [
+    {
+      "id": "paris-001",
+      "src": "https://picsum.photos/seed/france-paris-eiffel/1200/800",
+      "alt": "Placeholder image — Eiffel Tower at dusk",
+      "aspectRatio": 1.5,
+      "caption": { "subject": "Eiffel Tower", "profession": "Paris" },
+      "metadata": { "title": "Tour Eiffel", "year": "2024", "description": "Placeholder image. Replace with your photo.", "location": "Paris, France", "series": "paris" }
+    },
+    {
+      "id": "paris-002",
+      "src": "https://picsum.photos/seed/france-paris-seine/1200/800",
+      "alt": "Placeholder image — Seine riverside",
+      "aspectRatio": 1.5,
+      "caption": { "subject": "The Seine", "profession": "Paris" },
+      "metadata": { "title": "Along the Seine", "year": "2024", "description": "Placeholder image. Replace with your photo.", "location": "Paris, France", "series": "paris" }
+    },
+    {
+      "id": "paris-003",
+      "src": "https://picsum.photos/seed/france-paris-cafe/1200/800",
+      "alt": "Placeholder image — Parisian café terrace",
+      "aspectRatio": 1.5,
+      "caption": { "subject": "Café terrace", "profession": "Le Marais" },
+      "metadata": { "title": "First espresso", "year": "2024", "description": "Placeholder image. Replace with your photo.", "location": "Paris, France", "series": "paris" }
+    },
+    {
+      "id": "paris-004",
+      "src": "https://picsum.photos/seed/france-paris-street/1200/800",
+      "alt": "Placeholder image — Paris street",
+      "aspectRatio": 1.5,
+      "caption": { "subject": "Side street", "profession": "Paris" },
+      "metadata": { "title": "Wandering", "year": "2024", "description": "Placeholder image. Replace with your photo.", "location": "Paris, France", "series": "paris" }
+    },
+    {
+      "id": "paris-005",
+      "src": "https://picsum.photos/seed/france-paris-bridge/1200/800",
+      "alt": "Placeholder image — Pont des Arts",
+      "aspectRatio": 1.5,
+      "caption": { "subject": "Pont des Arts", "profession": "Paris" },
+      "metadata": { "title": "Bridge at dusk", "year": "2024", "description": "Placeholder image. Replace with your photo.", "location": "Paris, France", "series": "paris" }
+    },
+    {
+      "id": "paris-006",
+      "src": "https://picsum.photos/seed/france-paris-night/1200/800",
+      "alt": "Placeholder image — Paris at night",
+      "aspectRatio": 1.5,
+      "caption": { "subject": "Night walk", "profession": "Paris" },
+      "metadata": { "title": "Lights on", "year": "2024", "description": "Placeholder image. Replace with your photo.", "location": "Paris, France", "series": "paris" }
+    }
+  ]
+}

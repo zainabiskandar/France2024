@@ -1,0 +1,213 @@
+{
+  "id": "besancon",
+  "title": "Besancon",
+  "slug": "besancon",
+  "description": "The citadel city on the Doubs, gateway to the Franche-Comté region.",
+  "featured": false,
+  "images": [
+    {
+      "id": "besancon-001",
+      "src": "https://picsum.photos/seed/france-bes-citadel/1200/800",
+      "alt": "Placeholder image — Besançon citadel",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Citadelle",
+        "profession": "Besançon"
+      },
+      "metadata": {
+        "title": "La Citadelle",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "Besançon, France",
+        "series": "besancon"
+      }
+    },
+    {
+      "id": "besancon-002",
+      "src": "https://picsum.photos/seed/france-bes-doubs/1200/800",
+      "alt": "Placeholder image — Doubs river bend",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Le Doubs",
+        "profession": "Besançon"
+      },
+      "metadata": {
+        "title": "River bend",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "Besançon, France",
+        "series": "besancon"
+      }
+    },
+    {
+      "id": "besancon-003",
+      "src": "https://picsum.photos/seed/france-bes-oldtown/1200/800",
+      "alt": "Placeholder image — old town streets",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Old town",
+        "profession": "Besançon"
+      },
+      "metadata": {
+        "title": "Vieille ville",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "Besançon, France",
+        "series": "besancon"
+      }
+    },
+    {
+      "id": "besancon-004",
+      "src": "https://picsum.photos/seed/france-bes-market/1200/800",
+      "alt": "Placeholder image — local market",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Marché",
+        "profession": "Franche-Comté"
+      },
+      "metadata": {
+        "title": "Market morning",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "Besançon, France",
+        "series": "besancon"
+      }
+    },
+    {
+      "id": "besancon-005",
+      "src": "https://picsum.photos/seed/france-bes-countryside/1200/800",
+      "alt": "Placeholder image — Franche-Comté countryside",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Countryside",
+        "profession": "Franche-Comté"
+      },
+      "metadata": {
+        "title": "Rolling hills",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "Franche-Comté, France",
+        "series": "besancon"
+      }
+    },
+    {
+      "id": "besancon-006",
+      "src": "https://picsum.photos/seed/france-bes-rooftops/1200/800",
+      "alt": "Placeholder image — rooftops view",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Rooftops",
+        "profession": "Besançon"
+      },
+      "metadata": {
+        "title": "From above",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "Besançon, France",
+        "series": "besancon"
+      }
+    },
+    {
+      "id": "besancon-007",
+      "src": "https://picsum.photos/seed/france-bes-fort/1200/800",
+      "alt": "Placeholder image — fortifications",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Stone walls",
+        "profession": "Besançon"
+      },
+      "metadata": {
+        "title": "Fortifications",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "Besançon, France",
+        "series": "besancon"
+      }
+    },
+    {
+      "id": "besancon-008",
+      "src": "https://picsum.photos/seed/france-bes-bridge/1200/800",
+      "alt": "Placeholder image — pont battant",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Crossing",
+        "profession": "Besançon"
+      },
+      "metadata": {
+        "title": "Pont Battant",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "Besançon, France",
+        "series": "besancon"
+      }
+    },
+    {
+      "id": "besancon-009",
+      "src": "https://picsum.photos/seed/france-bes-church/1200/800",
+      "alt": "Placeholder image — église",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Bell tower",
+        "profession": "Besançon"
+      },
+      "metadata": {
+        "title": "Église",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "Besançon, France",
+        "series": "besancon"
+      }
+    },
+    {
+      "id": "besancon-010",
+      "src": "https://picsum.photos/seed/france-bes-lane/1200/800",
+      "alt": "Placeholder image — backstreet",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Quiet lane",
+        "profession": "Besançon"
+      },
+      "metadata": {
+        "title": "Backstreet",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "Besançon, France",
+        "series": "besancon"
+      }
+    },
+    {
+      "id": "besancon-011",
+      "src": "https://picsum.photos/seed/france-bes-window/1200/800",
+      "alt": "Placeholder image — window light",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Afternoon",
+        "profession": "Besançon"
+      },
+      "metadata": {
+        "title": "Window light",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "Besançon, France",
+        "series": "besancon"
+      }
+    },
+    {
+      "id": "besancon-012",
+      "src": "https://picsum.photos/seed/france-bes-evening/1200/800",
+      "alt": "Placeholder image — evening",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Last light",
+        "profession": "Besançon"
+      },
+      "metadata": {
+        "title": "Evening",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "Besançon, France",
+        "series": "besancon"
+      }
+    }
+  ]
+}

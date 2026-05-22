@@ -1,0 +1,213 @@
+{
+  "id": "au-revoir",
+  "title": "Au revoir, France",
+  "slug": "au-revoir",
+  "description": "Last walks, last meals, and the long goodbye before flying home.",
+  "featured": false,
+  "images": [
+    {
+      "id": "au-revoir-001",
+      "src": "https://picsum.photos/seed/france-ar-suitcase/1200/800",
+      "alt": "Placeholder image — packed suitcase",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Packing up",
+        "profession": "Departure"
+      },
+      "metadata": {
+        "title": "Suitcase ready",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "au-revoir"
+      }
+    },
+    {
+      "id": "au-revoir-002",
+      "src": "https://picsum.photos/seed/france-ar-lastwalk/1200/800",
+      "alt": "Placeholder image — last walk",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Last walk",
+        "profession": "Departure"
+      },
+      "metadata": {
+        "title": "One more loop",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "au-revoir"
+      }
+    },
+    {
+      "id": "au-revoir-003",
+      "src": "https://picsum.photos/seed/france-ar-cafe/1200/800",
+      "alt": "Placeholder image — last café",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Last café",
+        "profession": "Departure"
+      },
+      "metadata": {
+        "title": "Final espresso",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "au-revoir"
+      }
+    },
+    {
+      "id": "au-revoir-004",
+      "src": "https://picsum.photos/seed/france-ar-goodbye/1200/800",
+      "alt": "Placeholder image — goodbye with hosts",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Goodbyes",
+        "profession": "Departure"
+      },
+      "metadata": {
+        "title": "Saying goodbye",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "au-revoir"
+      }
+    },
+    {
+      "id": "au-revoir-005",
+      "src": "https://picsum.photos/seed/france-ar-station/1200/800",
+      "alt": "Placeholder image — train station",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Gare",
+        "profession": "Departure"
+      },
+      "metadata": {
+        "title": "Platform",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "au-revoir"
+      }
+    },
+    {
+      "id": "au-revoir-006",
+      "src": "https://picsum.photos/seed/france-ar-window/1200/800",
+      "alt": "Placeholder image — view from plane window",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "From the air",
+        "profession": "Departure"
+      },
+      "metadata": {
+        "title": "Au revoir",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "au-revoir"
+      }
+    },
+    {
+      "id": "au-revoir-007",
+      "src": "https://picsum.photos/seed/france-ar-letter/1200/800",
+      "alt": "Placeholder image — a note left behind",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Letter",
+        "profession": "Departure"
+      },
+      "metadata": {
+        "title": "A note left behind",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "au-revoir"
+      }
+    },
+    {
+      "id": "au-revoir-008",
+      "src": "https://picsum.photos/seed/france-ar-flowers/1200/800",
+      "alt": "Placeholder image — flowers from hosts",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Goodbye gift",
+        "profession": "Departure"
+      },
+      "metadata": {
+        "title": "Flowers from hosts",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "au-revoir"
+      }
+    },
+    {
+      "id": "au-revoir-009",
+      "src": "https://picsum.photos/seed/france-ar-keys/1200/800",
+      "alt": "Placeholder image — keys returned",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Departure",
+        "profession": "Departure"
+      },
+      "metadata": {
+        "title": "Keys returned",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "au-revoir"
+      }
+    },
+    {
+      "id": "au-revoir-010",
+      "src": "https://picsum.photos/seed/france-ar-empty/1200/800",
+      "alt": "Placeholder image — empty room",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Final morning",
+        "profession": "Departure"
+      },
+      "metadata": {
+        "title": "Empty room",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "au-revoir"
+      }
+    },
+    {
+      "id": "au-revoir-011",
+      "src": "https://picsum.photos/seed/france-ar-taxi/1200/800",
+      "alt": "Placeholder image — taxi",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Heading out",
+        "profession": "Departure"
+      },
+      "metadata": {
+        "title": "Taxi",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "au-revoir"
+      }
+    },
+    {
+      "id": "au-revoir-012",
+      "src": "https://picsum.photos/seed/france-ar-airport/1200/800",
+      "alt": "Placeholder image — airport",
+      "aspectRatio": 1.5,
+      "caption": {
+        "subject": "Boarding",
+        "profession": "Departure"
+      },
+      "metadata": {
+        "title": "Airport",
+        "year": "2024",
+        "description": "Placeholder image. Replace with your photo.",
+        "location": "France",
+        "series": "au-revoir"
+      }
+    }
+  ]
+}
